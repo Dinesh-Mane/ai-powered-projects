@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-ai-project/pom.xml" />
         <option value="$PROJECT_DIR$/01-openai-chat-model-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/02-local-llm-integration-using-ollama/pom.xml" />
       </list>
     </option>
   </component>
