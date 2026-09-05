@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/02-local-llm-integration-using-ollama/pom.xml" />
         <option value="$PROJECT_DIR$/03-docker-model-runner-based-llm-model-integration/pom.xml" />
         <option value="$PROJECT_DIR$/04-integrate-amazon-bedrock-based-llms-with-spring-ai/pom.xml" />
+        <option value="$PROJECT_DIR$/05-integrate-multiple-models-in-an-app/pom.xml" />
       </list>
     </option>
   </component>
