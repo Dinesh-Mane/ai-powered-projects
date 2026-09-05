@@ -16,7 +16,6 @@ public class ChatController {
         this.chatClient = chatClientBuilder.build();
     }
 
-    // invoking ai/gemma3 model which running locally using docker model runner
     @GetMapping("/chat")
     public String ChatWitLocalLlmModel(@RequestParam("message") String msg){
         return chatClient.prompt(msg).call().content();
