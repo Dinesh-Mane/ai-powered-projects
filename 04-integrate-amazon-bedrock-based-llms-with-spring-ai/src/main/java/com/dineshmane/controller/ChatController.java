@@ -17,7 +17,7 @@ public class ChatController {
     }
 
     @GetMapping("/chat")
-    public String ChatWitLocalLlmModel(@RequestParam("message") String msg){
+    public String ChatWithBedrockConverseBasedLlm(@RequestParam("message") String msg){
         return chatClient.prompt(msg).call().content();
     }
 
