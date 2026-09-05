@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01-openai-chat-model-integration" />
         <module name="02-local-llm-integration-using-ollama" />
+        <module name="03-docker-model-runner-based-llm-model-integration" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-openai-chat-model-integration" options="-parameters" />
       <module name="02-local-llm-integration-using-ollama" options="-parameters" />
+      <module name="03-docker-model-runner-based-llm-model-integration" options="-parameters" />
     </option>
   </component>
 </project>
